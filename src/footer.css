@@ -12,6 +12,7 @@
 }
 .ftr-second{
     column-gap: 14%;
+    display:flex;
 }
 .ff{
     width: 30%;
