@@ -9,7 +9,7 @@ export default function footer() {
 </div>
 <button className='pd-6 text-white mt-8 ftr-btn'>Request Early Access</button>
         </div>
-        <div className='ftr-second flex mt-20'>
+        <div className='ftr-second  mt-20'>
 <div className='f-one flex flex-col'>
     <h1 className='hh'>GPT-3</h1>
     <p className='mt-4'>Crechterwoord K12 182 DK Alknjkcb, All Rights Reserved</p>
