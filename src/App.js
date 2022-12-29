@@ -29,7 +29,7 @@ function useApp() {
     <div className="App">
 
       <div className="header">
-        <div className="flex h-one cursor-pointer">
+        <div className=" h-one cursor-pointer">
           <a href="/" className="h-firsta">
             GPT-3
           </a>
