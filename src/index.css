@@ -1,0 +1,11 @@
+body{
+  background-color: #040C18;
+  font-family:  'Manrope', sans-serif;
+}
+.App{
+  color: white;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}

@@ -1,0 +1,94 @@
+.f-left{
+    left: 2%;
+}
+.attract{
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    font-size: 2.5rem;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 70%;
+    text-align: left;
+}
+.ips input{
+    width: 300px;
+    background-color:#042c54;
+    color: #81AFDD   ;
+}
+.ips button{
+    width: 200px;
+}
+.f-section{
+    margin-top: 130px;
+}
+.reduce{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.para{
+    color: #81AFDD;
+    font-size: 1rem;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+   text-align: justify;
+}
+.f-right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60%;
+    margin-top: -5%;
+}
+.f-right img{
+    width: 450px;
+}
+.para img{
+    width: 100px;
+margin-top: 20px;
+}
+@media screen and (max-width:800px) {
+    .attract{
+        font-size: 2rem;
+        line-height: normal;
+        text-align: left;
+    }
+    .para{
+        text-align: left;
+    }
+    .ips{
+        font-size: small;
+    }
+}
+@media screen and (max-width:646px){
+    .attract{
+        font-size: 1.7rem;
+width: 80%;
+    }
+    .para{
+        font-size: 0.8rem;
+        width: 80%;
+    }
+}
+@media screen and (max-width:462px){
+    .attract{
+        font-size: 1.4rem;
+/* width: 80%; */
+    }
+    .para{
+        font-size: 0.6rem;
+        /* width: 80%; */
+    }
+}
+@media screen and (max-width:930px) {
+    .ips button{
+        /* width: 300px; */
+        padding: 1px;
+    }
+}
+@media screen and (max-width:750px){
+    .ppl img{
+        width: 50px;
+    }
+}

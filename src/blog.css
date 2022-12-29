@@ -1,0 +1,136 @@
+.myblog{
+    width: 75%;
+    background-color: #042c54;
+   height: fit-content;
+   margin-left: 8%;
+   /* row-gap: 50px; */
+   cursor: default;
+}
+.patch{
+    background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+    height: 4px;
+    width: 40px;
+
+}
+.b-right{
+    color:'#81AFDD';
+    width: 60%;
+   color: #81AFDD;
+    margin-left: 10%;
+    text-align: justify;
+}
+.b-left{
+    text-align: left;
+}
+.s2-left{
+    background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 30%;
+    text-align: justify;
+}
+.s2-right{
+    margin-top: 30px;
+    margin-left: 30%;
+    color: orange;
+}
+.section3{
+    color:#81AFDD;
+    margin-bottom: 5%;
+    margin-right: 20px;
+}
+.s3-left{
+    margin-left: 30px;
+    /* text-align: justify; */
+}
+.tt{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+}
+/* .s3-middle{
+    text-align: justify;
+}
+.s3-right{
+    text-align: justify;
+} */
+.section3{
+    column-gap: 13%;
+    text-align: left;
+    /* margin-top: 60px; */
+}
+@media screen and (max-width:1003px) {
+    .s2-left{
+        width: 40%;
+        text-align: left;
+    }
+}
+@media screen and (max-width:925px){
+    .section1{
+        margin-left: 5px;
+    }
+    .b-right{
+        margin-left: 3%;
+    }
+}
+@media screen and (max-width:730px){
+    .b-left{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:760px){
+    .s2-left{
+        font-size: 20px;
+    }
+    .s2-right{
+        margin-left: 20%;
+    }
+}
+@media screen and (max-width: 540px){
+    .s2-right{
+        margin-left: 10%;
+        font-size: small;
+    }
+    .s2-left{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:610px){
+    .b-right{
+        width: 70%;
+        font-size: small;
+        margin-right: 5px;
+        text-align: left;
+    }
+}
+@media screen and (max-width:810px){
+    .section3{
+        column-gap: 5%;
+        font-size: small;
+    }
+    .tt{
+        font-size: 1.25rem;
+    }
+}
+@media screen and (max-width:565px) {
+    .section3{
+        column-gap: 2%;
+        font-size: x-small;
+    }
+    .tt{
+        font-size: 1rem;
+    }
+    .s3-left{
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width:380px){
+    .tt{
+        font-size: 0.7rem;
+    }
+    .section3{
+        font-size: 10px;
+    }
+}

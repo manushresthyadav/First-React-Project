@@ -1,0 +1,111 @@
+.su{
+    background-image: url('./assets/ML.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+.blck{
+    width: 40%;
+    height: 60%;
+    background-color: white;
+    border-radius: 50px;
+}
+.one-right{
+    position: absolute;
+    right: 30px;
+    top: 10px;
+}
+.cd{
+    font-size: 1.5rem/* 24px */;
+    line-height: 2rem;
+    margin-top: 1rem;
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(160, 157, 157);
+    margin: auto;
+    border-radius: 20px;
+}
+.subtn{
+    padding: 10px 40px;
+    border-radius: 40px;
+    width: 80%;
+    margin-top: 10px;
+}
+.tb{
+    border: 1px solid black;
+    
+}
+.gmt{
+    margin-top: 2.5rem;
+}
+.tb1{
+    /* background-color: lightblue; */
+}
+.fourth{
+    /* width: 95%; */
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.msu{
+    display: none;
+}
+@media screen and (max-width:842px){
+.cd{
+    font-size: 1rem;
+line-height: 1rem;
+margin-top: 0.4rem;
+}
+.gmt{
+    margin-top: 1rem;
+}
+}
+@media screen and (max-width:740px){
+    .blck{
+        width: 50%;
+    }
+}
+@media screen and (max-width:560px){
+    .cd{
+        font-size: 0.7rem;
+        /* line-height: 0.5rem */
+        width: fit-content;
+    }
+    .blck{
+        font-size: small;
+    }
+    .msuh{
+        display: none;
+    }
+    .msu{
+        display: block;
+    }
+    .msu img{
+        display: inline-block;
+        width: 1.5rem;
+    }
+ .subtn{
+padding: 5px 20px;
+ }   
+ .blck{
+    height: 50%;
+ }
+ .gmt{
+    margin-bottom: 10px;
+ }
+}
+@media screen and (max-width:437px){
+    .blck{
+        /* height: 60%; */
+        width: 70%;
+    }
+}

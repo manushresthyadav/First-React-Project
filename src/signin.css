@@ -1,0 +1,162 @@
+.signin{
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+    position: relative;
+    /* border: 2px solid red; */
+    margin-top: 10%;
+
+}
+.signin img{
+    width: 40%;
+    height: 700px;
+    border-radius: 10px;
+    /* opacity: 0.5; */
+}
+.orr{
+    position: absolute;
+    right: 15%;
+}
+.siblck{
+    width: 40%;
+    background-color: white;
+    height: 700px;
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    left: 0px;
+    
+}
+.im{
+    position: absolute;
+    left: 15%;
+    width: 20%;
+    top: 20%;
+    /* border: 2px solid red; */
+}
+.sibtn{
+    padding: 5px 20px;
+    border-radius: 40px;
+    width: 60%;
+    margin-top: 20px;
+    /* margin-left: 40px; */
+    border: 1px solid black;
+}
+.second img{
+    width: 40px;
+    height: 40px;
+}
+.second{
+    justify-content: center;
+    align-items: center; 
+}
+.third{
+    justify-content: center;
+    align-items: center;
+}
+.hide{
+    margin-left: 10%;
+}
+.first{
+    margin-top: 1rem;
+    /* margin-right: 2rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first i{
+    margin-left: 30px;
+}
+.line{
+    width: 90%;
+    height: 1px;
+    background-color:grey ;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.merge{
+margin-top: 0px;
+background-color: white;
+/* width: fit-content; */
+padding: 0px 20px;
+}
+.thirdip{
+    width: 60%;
+    height: 40px;
+    border: 1px solid black;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.tbtn{
+    padding: 10px 10px;
+    background-color: rgb(176, 175, 175);
+    width: 30%;
+    border-radius: 20px;
+    color: white;
+    margin-top: 10px;
+}
+.IN{
+    margin-top: 5rem;
+}
+.ifpx{
+    display: none;
+}
+@media screen and (max-width:1024px){
+    .hdsi{
+        display: none;
+    }
+    .siblck{
+        width: 60%;
+        border-radius: 20px;
+    }
+   .signin{
+    width: 100%;
+    background-image: url('./assets/aiml.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+   }
+   
+    
+}
+@media screen and (max-width:650px){
+.sibtn{
+    padding: 1px 5px;
+}
+.IN{
+    margin-top: 2rem;
+}
+.siblck{
+    width: 80%;
+    height: fit-content;
+}
+.first{
+    margin-right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .fpx{ */
+    /* display: none; */
+/* } */
+/* .ifpx{ */
+    /* display: block; */
+/* } */
+.second img{
+    width: 30px;
+    height: 30px;
+}
+}
+@media screen and (max-width:530px){
+    .siblck{
+        width: 80%;
+    }
+}
